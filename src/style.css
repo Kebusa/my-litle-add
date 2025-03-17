@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width: 250px;
+    height: 400px;
+    background: chocolate;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    color: red;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 999px;
+    object-fit: cover;
+    filter: drop-shadow(0px 0px 10px red);
+}
+
+.contain{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    filter: drop-shadow(2px 2px 20px chocolate);
+}
+.Myprofil{
+    margin-left: 450px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+div{
+    text-align: center;
+    height: 50vh;
+    width: 500px;
+}
+.darkMode{
+    background: #000;
+    color: white;
+}
+.lightMode{
+    background: #fff;
+    color: black;
+}
