@@ -20,7 +20,7 @@ function MovieList({movies}) {
                             <span>●</span>
                             <span>{movie.Type === 'movie' ? 'Фильм' : "Сериал"}</span>
                         </p>
-                    </div>
+                    </div> 
                 </Link>
             ))
           ) : <p>Фильм табылмады</p>}  

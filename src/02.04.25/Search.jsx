@@ -28,7 +28,7 @@ function Search({onSearch}) {
                 console.error("404" + error);
                 
             }finally{
-                setIsLoading(false)
+                setIsLoading(false) 
             }
            
         }
