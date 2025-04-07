@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    color: white;
+    background: black;
+}
+.login-contain{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+}
+.form-contain{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 500px;
+    top: 200px;
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.521);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.form-contain input{
+    width: 400px;
+    height: 30px;
+}
+.form-contain label{
+    margin-top: 20px;
+}
+.login-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.login-text h2{
+    background-color: rgba(255, 0, 0, 0.574);
+    color: red;
+}
+.submitBtn{
+    margin-top: 20px;
+    background-color: green;
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+.submitBtn :hover{
+    opacity: 0.3;
+}
+
+.home-header{
+    display: flex;
+    width: 1455px;
+    background-color: rgba(0, 225, 255, 0.715);
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border: 999px;
+}
+.logo{
+    display: flex;
+}
+.home-link{
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+}
+.gallery-link{
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+}
+.home-link{
+    display: flex;
+    column-gap: 30px;
+}
+.welcome-text{
+    position: absolute;
+    left: 600px;
+    top: 250px;
+}
+.card img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    background: none;
+}
+.card button{
+    padding: 10px;
+    color:white;
+    background-color: grey;
+    border: none;
+    position: absolute;
+    bottom: 20px;
+    left: 120px;
+}
+.card{
+    position: relative;
+}
+.books-cont{
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+}
